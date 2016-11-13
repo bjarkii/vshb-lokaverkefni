@@ -1,0 +1,240 @@
+/* support Firefox, WebKit, Opera and IE8+ */
+
+div, header, article, aside, content {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+
+/* FONTS */
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	color: #444444;
+	font-size: 16px;
+}
+
+h4 {
+	font-family: 'Montserrat', sans-serif;
+	color: #444444;
+	font-size: 50px;
+	font-weight: 300;
+	margin: 10px;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  color: #444444;
+  font-weight: 300;
+	font-size: 16px;
+}
+
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: #444444;
+  font-weight: 600;
+	font-size: 16px;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	color: #1a1a1a;
+  font-weight: 300;
+}
+
+input {
+	font-family: 'Montserrat', sans-serif;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  color: #444444;
+  font-weight: 300;
+	font-size: 16px;
+}
+
+
+/* MAIN */
+body {
+	background: #f0f0f0;
+}
+
+/* ELEMENTS */
+.right-border {
+	border-right: 1px solid #ccc;
+}
+
+.margin-top {
+  margin-top: 20px;
+}
+
+/* HOLE VIEW */
+
+.hole-wrap {
+	text-align: center;
+  margin: auto;
+}
+
+.item-wrap {
+	padding: 10px;
+  text-align: center;
+}
+
+.item-inner {
+	background: white;
+	padding: 50px;
+	box-shadow: 0px 0px 2px #ccc;
+}
+
+.item-sidebar {
+	padding: 50px;
+	background: white;
+}
+
+.user-input-wrap {
+	text-align: left;
+}
+
+.user-input {
+  border-bottom: 5px solid #006064;
+}
+
+.user-input-wrap input {
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	padding: 10px;
+	text-align: center;
+	font-size: 35px;
+}
+
+.total-score-wrap {
+	padding: 10px;
+}
+
+.switch-view-button-wrap button {
+	width: 100%;
+	border: none;
+  background: none;
+  border: #ccc solid 1px;
+	height: 100%;
+
+  transition: all 0.3s;
+}
+
+.switch-view-button-wrap button:hover {
+  background: #ccc;
+}
+
+.hole-number-wrap {
+	height: 100%;
+	padding-top: 15px;
+  background: #006064;
+  text-align: center;
+}
+
+.hole-number-wrap h5 {
+	margin: 0px;
+  color: white;
+}
+
+.header {
+	height: 50px;
+}
+
+.container {
+  transition: all 0.5s;
+}
+
+/* OVERVIEW */
+
+.table-overview-item {
+  border: 1px solid #ccc;
+  text-align: center;
+  width: 25%;
+  display: inline-block;
+  padding: 20px;
+}
+
+.table-overview-item h5 {
+  color: #6a6a6a;
+}
+
+.table-overview-item-wrap {
+  width: 100%;
+}
+
+.bold h5 {
+  font-weight: bold;
+}
+
+
+
+/* ERROR */
+.error-message-wrap {
+  background: #B71C1C;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.error-message-wrap p {
+  color: white;
+}
+
+
+
+.axis path, .axis line
+        {
+            fill: none;
+            stroke: #777;
+            shape-rendering: crispEdges;
+        }
+
+        .axis text
+        {
+            font-family: 'Arial';
+            font-size: 13px;
+        }
+        .tick
+        {
+            stroke-dasharray: 1, 2;
+        }
+        .bar
+        {
+            fill: FireBrick;
+        }
+
+
+
+
+
+/* ----- FONTS MOBILE ----- */
+
+/* md ≥ 768px*/
+@media screen and (max-width: 768px){
+
+	/* ELEMENTS */
+	.right-border {
+		border-right: none;
+	}
+
+}
+
+/* lg ≥ 1024px */
+@media screen and (max-width: 1024px){
+
+  .hole-wrap
+  {
+    width: 100%;
+    margin-top: 0px;
+  }
+
+}
